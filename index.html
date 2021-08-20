@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-layout</title>
+    <style>
+        body{
+            font-family: arial,helvetica,sans-serif;
+            background: slategray;
+            margin:0;
+            padding: 0;
+        }
+
+    #wrapper{
+        width: 1000px;
+        border: 0px solid black;
+        background:whitesmoke;
+        margin:0 auto ;
+    }
+    #header{
+        background: #cc6633;
+        height: 100px;
+        
+    }
+    #Menu{
+        background:  #ff9966 ;
+    }
+    #Menu li{
+        display: inline-block;
+    }
+    #Menu li a{
+    display:block;
+    padding:10px 15px;
+    text-decoration: none;
+    color: black;
+}
+#Menu ul{
+    margin: 0;
+    padding: 0;
+}
+    #content{
+        width: 800px;
+        float: left;
+        min-height: 500px;
+        
+    }
+    #content p{
+        padding:0 30px;
+        text-align: justify;
+    }
+    h2{
+        padding-left: 30px;
+    }
+    #sidebar{
+       background: #66cc99; 
+       width: 200px;
+       float: right;
+       min-height: 500px;
+    }
+    #sidebar li a{
+        text-decoration: none;
+        padding: 10px ;
+        color: black;
+        
+    }
+    #sidebar li{
+        padding: 10px;
+    }
+    #footer{
+        background: #cc6633 ;
+        clear: both;
+        padding: 5px 30px;
+        text-align: right;
+    }
+    
+</style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <h1>Website Name</h1>
+</div>
+        <div id="Menu">
+            <ul>
+            <li> <a href="">Home</a></li>
+            <li> <a href="">About us</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+        </div>
+        <div id="content">
+            <h2>Sub heading</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sunt similique sapiente sed alias repellendus laborum eligendi veniam sequi assumenda eos nemo maxime quae voluptas incidunt, adipisci repudiandae? Fugit velit provident sunt doloribus tempore eveniet, aperiam quisquam est tempora delectus veniam sequi in aliquam nostrum saepe nisi deserunt neque? Excepturi consequuntur itaque libero est nesciunt sapiente impedit quod, cupiditate fugiat culpa id assumenda accusantium corrupti quis veritatis ipsa facere deserunt beatae. Dolore impedit perferendis, dolorem quisquam nisi aperiam suscipit. Praesentium repellendus voluptate vel debitis eos aliquid sit amet magni facilis aspernatur natus, cumque harum eveniet fugit. Vitae autem repudiandae ullam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, corporis quasi animi dolor necessitatibus voluptatum. Ducimus architecto quisquam doloremque officiis est nesciunt in consectetur tempora officia. Similique cumque sit debitis accusantium, impedit fugit quibusdam ut explicabo nihil aperiam iste hic dolorum, temporibus expedita atque blanditiis voluptatum ipsam voluptates autem dicta, veritatis consectetur et in? Eius autem suscipit aperiam in. Officiis numquam dolores cumque consequatur amet voluptatem animi vel veniam provident quod. Unde alias fugit fuga vitae perspiciatis! Eligendi reiciendis dicta id tempore quaerat laborum officia odio ex eum, nam quis, iusto ducimus? Minus, beatae quisquam? Vel excepturi mollitia maxime rem!</p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                 <li> <a href="">Home</a></li>
+                 <li> <a href="">About Us</a></li>
+                 <li><a href="">Gallery</a></li>
+                 <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div id="footer">
+            ebrahimkhan5222@gmail.com2021
+            
+        </div>
+        </div>
+    </body>
+</html>
